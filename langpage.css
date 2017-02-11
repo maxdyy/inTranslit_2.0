@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+  font-weight: 300;
+}
+
+h1  {
+  font-family: "Open Sans";
+  font-size: 60px;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-color:#242323;
+  color: #929292;
+}
+
+.logow{
+  color: #fafafa;
+}
+
+#RR {
+  font-size: 90px;
+}
+
+#logoin{
+  font-size: 40px;
+}
+
+#logot{
+  font-size: 80px;
+}
+
+div {
+  margin: auto;
+  margin-top: 15%;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+button{
+  background: #383838;
+  color: white;
+  border:none;
+  position:relative;
+  height:50px;
+  width: 150px;
+  font-size:25px;
+  font-family: "Open Sans"
+  font-weight:300;
+  padding:10px;
+  /*margin-left: 15px;
+  margin-right: 15px;*/
+  margin: 15px;
+  cursor:pointer;
+  transition:1000ms ease all;
+  outline:none;
+}
+button:hover{
+  background: white;
+  color: #383838;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #383838;
+  transition:500ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+footer {
+        margin-top: 18%;
+        height: 20px;
+        width: 100%;
+        background-color: #383838;
+    }
+
+    p.copyright {
+        width: 100%;
+        color: #fff;
+        font-family: "Open Sans";
+        font-size: 12px;
+        text-align: center;
+        padding-top: 2px;
+    }
