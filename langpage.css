@@ -3,9 +3,6 @@ body {
   font-weight: 300;
 }
 
-#logo:link {
-  text-decoration: none;
-}
 
 .header {
   font-family: "Open Sans";
@@ -21,7 +18,7 @@ body {
   margin-top: -15px;
 }
 
-.header a {
+a {
   text-decoration: none;
   color: inherit;
   cursor: auto;
