@@ -3,17 +3,28 @@ body {
   font-weight: 300;
 }
 
-.h1 {
+#logo:link {
+  text-decoration: none;
+}
+
+.header {
   font-family: "Open Sans";
   font-size: 60px;
   font-weight: 400;
   color: #929292;
-  height: 100px;
-  text-align: center;
-  margin-top: -17px;
-  padding-bottom: 10px;
-  width: 100%;
   background-color:#242323;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  height: 110px;
+  margin-top: -15px;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+  cursor: auto;
 }
 
 .logow {
@@ -33,11 +44,11 @@ body {
 }
 
 .buttons {
-  margin: auto;
-  margin-top: 15%;
-  width: 50%;
-  padding: 10px;
   text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 53%;
+  transform: translate(-50%, -50%);
 }
 
 button {
@@ -70,7 +81,7 @@ button:before, button:after {
   height: 2px;
   width: 0;
   background: #383838;
-  transition: 500ms ease all;
+  transition: 800ms ease all;
 }
 button:after {
   right: inherit;
@@ -80,22 +91,22 @@ button:after {
 }
 button:hover:before, button:hover:after {
   width: 100%;
-  transition: 800ms ease all;
+  transition: 1000ms ease all;
 }
 
 footer {
-        /*height: 10px;*/
         width: 100%;
         background-color: #383838;
         position: absolute;
         right: 0;
         bottom: 0;
         left: 0;
-        /*padding-bottom: 20px;*/
         text-align: center;
     }
 
     p.copyright {
+        margin-top: 5px;
+        margin-bottom: 5px;
         width: 100%;
         color: #fff;
         font-family: "Open Sans";
