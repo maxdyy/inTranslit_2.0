@@ -1,8 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body {
   margin: 0px;
   font-weight: 300;
 }
-
 
 .header {
   font-family: "Open Sans";
