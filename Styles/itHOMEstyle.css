@@ -1,3 +1,7 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,11 +27,11 @@ header {
 }
 
 #logo {
-  margin-top: 10px;
+  margin-top: 3px;
   float: left;
   width: 200px;
-  height: 70px;
-  background: url(RR.png) no-repeat center;
+  height: 90px;
+  background: url(RR_logo_short.png) no-repeat center;
 }
 
 /*mobile menu icon*/
@@ -36,7 +40,7 @@ header {
   display: hidden;
   width: 40px;
   height: 40px;
-  background: url(nav.png) center;
+  background: url(img/nav.png) center;
 }
 
 a:hover#menu-icon {

@@ -5,44 +5,40 @@
 }
 
 body {
-  margin: 0px;
-  font-weight: 300;
+  background: #ffffff;
+  font-family: "Open Sans";
 }
 
-.header {
-  font-family: "Open Sans";
-  font-size: 60px;
-  font-weight: 400;
-  color: #929292;
-  background-color:#242323;
-  text-align: center;
-  display: inline-block;
+/*header*/
+
+header {
+  background-color: #242323;
   width: 100%;
-  position: absolute;
-  height: 110px;
-  margin-top: -15px;
+  height: 95px;
 }
+
+#header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#logo {
+  position: absolute;
+    left: 50%;
+    top: 6.5%;
+    transform: translate(-50%, -50%);
+  text-align: center;
+  width: 400px;
+  height: 90px;
+  background: url(RR_logo_extended.png) no-repeat center;
+}
+
+
+/*buttons*/
 
 a {
   text-decoration: none;
   color: inherit;
-  cursor: auto;
-}
-
-.logow {
-  color: #fafafa;
-}
-
-#RR {
-  font-size: 90px;
-}
-
-#logoin {
-  font-size: 40px;
-}
-
-#logot {
-  font-size: 80px;
 }
 
 .buttons {
@@ -95,6 +91,8 @@ button:hover:before, button:hover:after {
   width: 100%;
   transition: 1000ms ease all;
 }
+
+/*footer*/
 
 footer {
         width: 100%;
