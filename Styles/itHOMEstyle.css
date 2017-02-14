@@ -93,13 +93,13 @@ nav ul li a:hover {
   overflow: hidden;
   height: 450px;
   padding-top: 15px;
-  background-color: #929292;
+  background-color: #383838;
 }
 
 #intersection {
   height: 15px;
   padding: 0;
-  background-color: #929292;
+  background-color: #383838;
 }
 
 .slider figure div {
@@ -117,7 +117,7 @@ nav ul li a:hover {
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 60s slidy infinite;
+  animation: 55s slidy infinite;
 }
 
 @keyframes slidy {
@@ -225,11 +225,11 @@ h3  {
 
 /*companies logos*/
 section {
-  width: 800px;
+  width: 900px;
   height: 250px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -242,8 +242,8 @@ section {
 
 .comp-logos li{
   display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .comp-logos li img {
@@ -257,21 +257,16 @@ section {
 
 
 /*footer*/
-/*footer {
-  width: 100%;
-  background-color: #383838;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+footer {
+background-color: #383838;
+margin: 0;
 }
 
 .copyright {
-  margin-top: 5px;
-  margin-bottom: 5px;
   color: #fff;
   font-family: "Open Sans";
   font-size: 12px;
   font-weight: 300;
   text-align: center;
-}*/
+  padding: 5px 0 5px 0;
+}
