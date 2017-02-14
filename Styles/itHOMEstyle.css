@@ -92,6 +92,14 @@ nav ul li a:hover {
 .slider{
   overflow: hidden;
   height: 450px;
+  padding-top: 15px;
+  background-color: #929292;
+}
+
+#intersection {
+  height: 15px;
+  padding: 0;
+  background-color: #929292;
 }
 
 .slider figure div {
@@ -109,7 +117,7 @@ nav ul li a:hover {
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 30s slidy infinite;
+  animation: 60s slidy infinite;
 }
 
 @keyframes slidy {
@@ -180,6 +188,9 @@ nav ul li a:hover {
   }
 }
 
+/*buttons*/
+
+
 
 
 /*body text*/
@@ -188,23 +199,79 @@ article {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  color: #242323;
 }
 
 h3  {
   font-size: 21px;
   font-weight: 400;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  margin-top: 50px;
 }
 
 #bold{
   font-weight: 700;
 }
 
-p {
+.description {
   font-size: 18px;
   text-align: justify;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-top:
 }
+
+
+/*companies logos*/
+section {
+  width: 800px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.comp-logos {
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+
+.comp-logos li{
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.comp-logos li img {
+  filter: grayscale(95%);
+}
+
+.comp-logos li img:hover {
+  filter: grayscale(0);
+}
+
+
+
+/*footer*/
+/*footer {
+  width: 100%;
+  background-color: #383838;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.copyright {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+}*/

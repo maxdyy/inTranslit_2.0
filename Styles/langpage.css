@@ -18,16 +18,15 @@ header {
 }
 
 #header-inner {
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: 0 auto;
 }
 
 #logo {
   position: absolute;
-    left: 50%;
-    top: 6.5%;
-    transform: translate(-50%, -50%);
-  text-align: center;
+  left: 50%;
+  top: 6.5%;
+  transform: translate(-50%, -50%);
   width: 400px;
   height: 90px;
   background: url(img/RR_logo_extended.png) no-repeat center;
@@ -60,8 +59,6 @@ button {
   font-family: "Open Sans"
   font-weight: 300;
   padding: 10px;
-  /*margin-left: 15px;
-  margin-right: 15px;*/
   margin: 15px;
   cursor: pointer;
   transition: 1000ms ease all;
@@ -95,21 +92,20 @@ button:hover:before, button:hover:after {
 /*footer*/
 
 footer {
-        width: 100%;
-        background-color: #383838;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        text-align: center;
-    }
+  width: 100%;
+  background-color: #383838;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
-    p.copyright {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        width: 100%;
-        color: #fff;
-        font-family: "Open Sans";
-        font-size: 12px;
-        text-align: center;
-    }
+p.copyright {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+}
