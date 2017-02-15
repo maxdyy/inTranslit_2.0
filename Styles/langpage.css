@@ -4,9 +4,11 @@
   border: 0;
 }
 
-body {
+body, html {
   background: #ffffff;
   font-family: "Open Sans";
+  height: 91.2%;
+  width: 100%;
 }
 
 /*header*/
@@ -18,14 +20,14 @@ header {
 }
 
 #header-inner {
-  /*max-width: 1200px;*/
   margin: 0 auto;
 }
 
 #logo {
+  text-align: center;
   position: absolute;
   left: 50%;
-  top: 6.5%;
+  top: 6%;
   transform: translate(-50%, -50%);
   width: 400px;
   height: 90px;
@@ -34,6 +36,9 @@ header {
 
 
 /*buttons*/
+section {
+  height: 100%;
+}
 
 a {
   text-decoration: none;
@@ -43,9 +48,11 @@ a {
 .buttons {
   text-align: center;
   position: absolute;
+  top: 50%;
   left: 50%;
-  top: 53%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,-10%);
+  width: 600px;
+  height: 200px;
 }
 
 button {
@@ -92,20 +99,39 @@ button:hover:before, button:hover:after {
 /*footer*/
 
 footer {
-  width: 100%;
-  background-color: #383838;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+background-color: #383838;
+margin: 0;
 }
 
-p.copyright {
-  margin-top: 5px;
-  margin-bottom: 5px;
+.copyright {
   color: #fff;
   font-family: "Open Sans";
   font-size: 12px;
   font-weight: 300;
   text-align: center;
+  padding: 5px 0 5px 0;
+}
+
+/*MEDIA*/
+@media screen and (max-width: 768px) {
+  #logo {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 6.7%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 90px;
+    background: url(img/RR_logo_extended_mob.png) no-repeat center;
+  }
+
+  .buttons {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+  }
 }
