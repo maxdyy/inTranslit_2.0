@@ -20,19 +20,13 @@ header {
 }
 
 #header-inner {
-  margin: 0 auto;
+  text-align: center;
 }
 
-#logo {
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 6%;
-  transform: translate(-50%, -50%);
-  width: 400px;
-  height: 90px;
-  background: url(img/RR_logo_extended.png) no-repeat center;
+#logo{
+  margin-top: 7px;
 }
+
 
 
 /*buttons*/
@@ -114,15 +108,10 @@ margin: 0;
 
 /*MEDIA*/
 @media screen and (max-width: 768px) {
-  #logo {
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 6.7%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 90px;
-    background: url(img/RR_logo_extended_mob.png) no-repeat center;
+
+  #logo{
+  margin-top: 20px;
+  content:url("img/RR_logo_extended_mob.png")
   }
 
   .buttons {
