@@ -11,6 +11,7 @@
 body {
   background: #ffffff;
   font-family: "Open Sans";
+  color: #242323;
 }
 
 /*header*/
@@ -72,11 +73,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #929292;
+  color: #C5D5EA;
 }
 
 .current {
-  color: #929292;
+  color: #C5D5EA;
 }
 
 /*body text*/
@@ -133,7 +134,7 @@ section {
 }
 
 .comp-logos li img {
-  filter: grayscale(95%);
+  filter: grayscale(70%);
 }
 
 .comp-logos li img:hover {
@@ -207,14 +208,15 @@ margin: 0;
     width: 90%;
     height: 100%;
     margin-bottom: 30px;
+    margin-top: 15px;
   }
 
-  .comp-logos {
-    display: list-item;
+  .comp-logos li {
+    display: block;
   }
 
   li img {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
   }
 

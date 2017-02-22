@@ -51,7 +51,7 @@ a {
 
 button {
   background: #383838;
-  color: white;
+  color: #fafafa;
   border: none;
   position: relative;
   height: 50px;
@@ -66,7 +66,7 @@ button {
   outline: none;
 }
 button:hover {
-  background: white;
+  background: #C5D5EA;
   color: #383838;
 }
 button:before, button:after {
