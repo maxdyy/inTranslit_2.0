@@ -83,10 +83,90 @@ nav ul li a:hover {
 /*body text */
 
 .float {
-  margin-top: 35px;
+  margin: 50px auto 0 auto;
+  width: 800px;
+  font-size: 18px;
+  text-align: justify;
+  color: #242323;
 }
 
 .float img {
   float: left;
-  margin: 10px;
+  margin: 8px 15px;
+}
+
+#margin-fix-img {
+  margin-bottom: 130px;
+}
+
+/*footer*/
+footer {
+background-color: #383838;
+margin: 80px 0 0 0;
+}
+
+.copyright {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+
+/*MEDIA*/
+
+@media screen and (max-width: 900px) {
+
+
+  #logo {
+    margin: 5px 0 0 0;
+  }
+
+  #menu-icon {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav ul, nav:active ul {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    padding: 20px 20px 20px 0px;
+    background: #242323;
+    right: 0.1px;
+    top: 94px;
+    text-align: center;
+  }
+  nav:hover ul {
+    display: block;
+  }
+  nav li {
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .float {
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 773px) {
+
+  #margin-fix-img {
+    margin-bottom: 160px;
+
+  }
+}
+
+@media screen and (max-width: 765px) {
+
+  .float {
+    text-align: center;
+  }
+
+  .float img {
+    display: none;
+  }
 }
