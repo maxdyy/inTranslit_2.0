@@ -81,9 +81,169 @@ nav ul li a:hover {
   color: #929292;
 }
 
+/*Contacts*/
+
+#banner-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 
+.one-half {
+  width: 44%;
+  float: left;
+  margin: 10% 0 3% 4%;
+  text-align: center;
+}
 
+
+/*contact form */
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #242323;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #242323;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #242323;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #242323;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #242323;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea:focus:placeholder {
+  color: #242323;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #242323;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #242323;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #929292;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #929292;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #929292;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #929292;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #929292;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #929292;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #929292;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
+  color: #929292;
+}
+
+#form {
+  position: relative;
+  width: 100%;
+  max-width: 472px;
+}
+
+input {
+  font-family: "Open Sans";
+  color: #242323;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+
+  max-width: 470px;
+  width: 100%;
+  height: 50px;
+
+  background: transparent;
+  outline: none;
+
+  border: solid 1px #929292;
+  border-bottom: none;
+}
+
+
+textarea {
+  max-width: 470px;
+  width: 100%;
+  height: 110px;
+  max-height: 110px;
+  padding-top: 15px;
+
+  background: transparent;
+  outline: none;
+
+  font-family: "Open Sans";
+  color: #242323;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+
+  border: solid 1px #929292;
+}
+
+#submit {
+  max-width: 472px;
+  width: 100.5%;
+  background-color: #242323;
+
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+
+  outline:none;
+  cursor: pointer;
+
+  border: solid 1px #929292;
+  border-top: none;
+}
+
+#submit:hover {
+  background-color: #929292;
+}
 
 
 /*footer*/
@@ -99,7 +259,7 @@ width: 100%;
   color: #fff;
   font-family: "Open Sans";
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   padding: 5px 0 5px 0;
 }
