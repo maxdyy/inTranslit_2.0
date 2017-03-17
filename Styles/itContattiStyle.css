@@ -83,6 +83,10 @@ nav ul li a:hover {
 
 /*Contacts*/
 
+.fixer {
+  clear: both;
+}
+
 #banner-wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -94,6 +98,7 @@ nav ul li a:hover {
   float: left;
   margin: 10% 0 3% 4%;
   text-align: center;
+  
 }
 
 
@@ -246,25 +251,50 @@ textarea {
 }
 
 
+/*profile img*/
+
+#profile {
+  margin-top: -30px;
+}
+
+.one-half h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 5px 0 10px 0;
+}
+
+.one-half p {
+  font-size: 18px;
+}
+
 /*footer*/
 footer {
 background-color: #383838;
-margin: 0;
-position: fixed;
-bottom: 0px;
-width: 100%;
+margin: 0 0 0 0;
+
 }
 
 .copyright {
   color: #fff;
   font-family: "Open Sans";
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   padding: 5px 0 5px 0;
 }
 
 /*MEDIA*/
+
+@media screen and (min-height: 740px) {
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+}
+
 
 @media screen and (max-width: 900px) {
 
@@ -295,3 +325,21 @@ width: 100%;
     text-align: center;
     width: 100%;
   }
+
+.one-half {
+    width: 100%;
+    margin: 10% 0%;
+  }
+
+  #form {
+    max-width: none;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  img {
+    max-width: 85%;
+  }
+}
