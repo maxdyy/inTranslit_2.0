@@ -1,4 +1,4 @@
-@-ms-viewport{
+@-ms-viewport {
   width: device-width;
 }
 
@@ -13,6 +13,7 @@ body {
   font-family: "Open Sans";
   color: #242323;
 }
+
 
 /*header*/
 
@@ -35,6 +36,7 @@ header {
   background: url(img/RR_logo_short.png) no-repeat center;
 }
 
+
 /*mobile menu icon*/
 
 #menu-icon {
@@ -47,6 +49,7 @@ header {
 a:hover#menu-icon {
   border-radius: 4px 4px 0 0;
 }
+
 
 /*navigation*/
 
@@ -80,6 +83,7 @@ nav ul li a:hover {
   color: #929292;
 }
 
+
 /*body text */
 
 article {
@@ -90,10 +94,12 @@ article {
 }
 
 
+
 /*footer*/
+
 footer {
-background-color: #383838;
-margin: 80px 0 0 0;
+  background-color: #383838;
+  margin: 80px 0 0 0;
 }
 
 .copyright {
@@ -105,14 +111,15 @@ margin: 80px 0 0 0;
   padding: 5px 0 5px 0;
 }
 
+
 /*MEDIA*/
 
 @media (min-height: 1000px) {
- footer {
-   position: fixed;
-   bottom: 0px;
-   width: 100%;
- }
+  footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
 }
 
 
@@ -128,7 +135,8 @@ margin: 80px 0 0 0;
     margin-right: 20px;
   }
 
-  nav ul, nav:active ul {
+  nav ul,
+  nav:active ul {
     display: none;
     z-index: 1000;
     position: absolute;
@@ -144,7 +152,6 @@ margin: 80px 0 0 0;
   nav li {
     text-align: center;
     width: 100%;
-
   }
 
   article {
@@ -154,10 +161,10 @@ margin: 80px 0 0 0;
 
 @media screen and (max-width: 550px) {
 
-.prezzi {
-  text-align: center;
+  .prezzi {
+    text-align: center;
+  }
 }
 
-}
 
 }

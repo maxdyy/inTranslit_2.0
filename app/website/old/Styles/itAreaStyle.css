@@ -1,4 +1,4 @@
-@-ms-viewport{
+@-ms-viewport {
   width: device-width;
 }
 
@@ -12,7 +12,9 @@ body {
   background: #ffffff;
   font-family: "Open Sans";
   color: #242323;
+  height: 100vh;
 }
+
 
 /*header*/
 
@@ -35,6 +37,7 @@ header {
   background: url(img/RR_logo_short.png) no-repeat center;
 }
 
+
 /*mobile menu icon*/
 
 #menu-icon {
@@ -47,6 +50,7 @@ header {
 a:hover#menu-icon {
   border-radius: 4px 4px 0 0;
 }
+
 
 /*navigation*/
 
@@ -80,29 +84,69 @@ nav ul li a:hover {
   color: #929292;
 }
 
-/*body text */
 
-.float {
-  margin: 50px auto 0 auto;
-  width: 800px;
-  font-size: 18px;
-  text-align: justify;
-  color: #242323;
+
+/*login*/
+
+.login-page {
+  width: 360px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.float img {
-  float: left;
-  margin: 8px 15px;
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-#margin-fix-img {
-  margin-bottom: 130px;
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
 }
+
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #242323;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #929292;
+}
+
 
 /*footer*/
+
 footer {
-background-color: #383838;
-margin: 80px 0 0 0;
+  background-color: #383838;
+  margin: 0;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 .copyright {
@@ -114,15 +158,8 @@ margin: 80px 0 0 0;
   padding: 5px 0 5px 0;
 }
 
-/*MEDIA*/
 
-@media (min-height: 1300px) {
- footer {
-   position: fixed;
-   bottom: 0px;
-   width: 100%;
- }
-}
+/*MEDIA*/
 
 @media screen and (max-width: 900px) {
 
@@ -136,7 +173,8 @@ margin: 80px 0 0 0;
     margin-right: 20px;
   }
 
-  nav ul, nav:active ul {
+  nav ul,
+  nav:active ul {
     display: none;
     z-index: 1000;
     position: absolute;
@@ -152,29 +190,20 @@ margin: 80px 0 0 0;
   nav li {
     text-align: center;
     width: 100%;
-
   }
 
-  .float {
-    max-width: 95%;
-  }
-}
-
-@media screen and (max-width: 773px) {
-
-  #margin-fix-img {
-    margin-bottom: 160px;
-
-  }
-}
-
-@media screen and (max-width: 765px) {
-
-  .float {
-    text-align: center;
+  .login-page {
+    max-width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  .float img {
-    display: none;
+  .form {
+    max-width: 300px;
+    box-shadow: none;
+    padding: 15px;
   }
 }

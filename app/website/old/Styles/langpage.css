@@ -4,12 +4,14 @@
   border: 0;
 }
 
-body, html {
+body,
+html {
   background: #ffffff;
   font-family: "Open Sans";
   height: 91.2%;
   width: 100%;
 }
+
 
 /*header*/
 
@@ -23,13 +25,15 @@ header {
   text-align: center;
 }
 
-#logo{
+#logo {
   margin-top: 7px;
 }
 
 
 
+
 /*buttons*/
+
 section {
   height: 100%;
 }
@@ -44,7 +48,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-10%);
+  transform: translate(-50%, -10%);
   width: 600px;
   height: 200px;
 }
@@ -65,12 +69,15 @@ button {
   transition: 1000ms ease all;
   outline: none;
 }
+
 button:hover {
   background: #ffffff;
   color: #383838;
 }
-button:before, button:after {
-  content:'';
+
+button:before,
+button:after {
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -79,25 +86,29 @@ button:before, button:after {
   background: #383838;
   transition: 800ms ease all;
 }
+
 button:after {
   right: inherit;
   top: inherit;
   left: 0;
   bottom: 0;
 }
-button:hover:before, button:hover:after {
+
+button:hover:before,
+button:hover:after {
   width: 100%;
   transition: 1000ms ease all;
 }
 
+
 /*footer*/
 
 footer {
-background-color: #383838;
-margin: 0;
-position: fixed;
-bottom: 0px;
-width: 100%;
+  background-color: #383838;
+  margin: 0;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 .copyright {
@@ -109,12 +120,14 @@ width: 100%;
   padding: 5px 0 5px 0;
 }
 
+
 /*MEDIA*/
+
 @media screen and (max-width: 768px) {
 
-  #logo{
-  margin-top: 20px;
-  content:url("img/RR_logo_extended_mob.png")
+  #logo {
+    margin-top: 20px;
+    content: url("img/RR_logo_extended_mob.png")
   }
 
   .buttons {
@@ -122,7 +135,7 @@ width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 200px;
     height: 200px;
   }

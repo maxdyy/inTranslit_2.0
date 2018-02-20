@@ -1,4 +1,4 @@
-@-ms-viewport{
+@-ms-viewport {
   width: device-width;
 }
 
@@ -13,6 +13,7 @@ body {
   font-family: "Open Sans";
   color: #242323;
 }
+
 
 /*header*/
 
@@ -35,6 +36,7 @@ header {
   background: url(img/RR_logo_short.png) no-repeat center;
 }
 
+
 /*mobile menu icon*/
 
 #menu-icon {
@@ -47,6 +49,7 @@ header {
 a:hover#menu-icon {
   border-radius: 4px 4px 0 0;
 }
+
 
 /*navigation*/
 
@@ -80,7 +83,9 @@ nav ul li a:hover {
   color: #929292;
 }
 
+
 /*slides*/
+
 .section-slides {
   width: 1300px;
   height: 480px;
@@ -89,17 +94,20 @@ nav ul li a:hover {
   margin-top: 15px;
   text-align: center;
 }
+
 .slides {
   height: 100%;
   width: 100%;
   list-style-type: none;
   text-align: center;
 }
-.slides li{
+
+.slides li {
   display: inline;
   margin-left: 0;
   margin-right: 0;
 }
+
 .slides li img {
   max-width: 100%;
 
@@ -108,7 +116,8 @@ nav ul li a:hover {
   transition: all 0.3s;
   filter: grayscale(50%);
 }
-.slides li img:hover  {
+
+.slides li img:hover {
   -moz-transform: scale(1.015);
   -webkit-transform: scale(1.015);
   transform: scale(1.015);
@@ -123,6 +132,7 @@ nav ul li a:hover {
   display: none;
 }
 
+
 /*body text*/
 
 article {
@@ -132,7 +142,7 @@ article {
   color: #242323;
 }
 
-h3  {
+h3 {
   font-size: 21px;
   font-weight: 400;
   text-align: center;
@@ -140,7 +150,7 @@ h3  {
   margin-top: 50px;
 }
 
-#bold{
+#bold {
   font-weight: 700;
 }
 
@@ -152,7 +162,9 @@ h3  {
 }
 
 
+
 /*companies logos*/
+
 .section-logos {
   width: 900px;
   height: 250px;
@@ -169,7 +181,7 @@ h3  {
   text-align: center;
 }
 
-.comp-logos li{
+.comp-logos li {
   display: inline;
   margin-left: 20px;
   margin-right: 20px;
@@ -185,10 +197,12 @@ h3  {
 
 
 
+
 /*footer*/
+
 footer {
-background-color: #383838;
-margin: 0;
+  background-color: #383838;
+  margin: 0;
 }
 
 .copyright {
@@ -200,14 +214,15 @@ margin: 0;
   padding: 5px 0 5px 0;
 }
 
+
 /*MEDIA*/
 
 @media (min-height: 1300px) {
- footer {
-   position: fixed;
-   bottom: 0px;
-   width: 100%;
- }
+  footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -227,8 +242,6 @@ margin: 0;
   .img2 {
     display: inline;
   }
-
-
 }
 
 @media screen and (max-width: 900px) {
@@ -253,7 +266,8 @@ margin: 0;
     margin-right: 20px;
   }
 
-  nav ul, nav:active ul {
+  nav ul,
+  nav:active ul {
     display: none;
     z-index: 1000;
     position: absolute;
@@ -269,10 +283,9 @@ margin: 0;
   nav li {
     text-align: center;
     width: 100%;
-
   }
 
-  .text{
+  .text {
     width: 95%;
   }
 
@@ -291,7 +304,6 @@ margin: 0;
     margin-top: 5px;
     margin-bottom: 5px;
   }
-
 }
 
 @media screen and (max-width: 450px) {

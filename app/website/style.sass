@@ -1,0 +1,72 @@
+$Title_Font: 'Raleway', sans-serif
+$Text_Font: 'Roboto Slab', serif
+
+html,
+body
+  height: 100%
+  width: 100%
+  margin: 0
+  background-color: #000
+  user-select: none
+  -webkit-tap-highlight-color: transparent
+
+#container
+  position: absolute
+  top: 15px
+  left: 0
+  background-color: #CD212A
+  padding: 5px
+  font-family: $Title_Font
+  font-size: 14px
+  letter-spacing: 1px
+  color: white
+  text-transform: uppercase
+  cursor: default
+  border-top-right-radius: 5px
+  border-bottom-right-radius: 5px
+
+#message
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  width: 266px
+  height: 166px
+  background-color: #eee
+  border-radius: 5px
+  color: #212121
+  font-family: $Text_Font
+  font-size: 16px
+  #close
+    position: absolute
+    top: 5px
+    left: 7px
+    width: 19px
+    height: 19px
+    cursor: pointer
+    transition: 0.45s
+    &:hover
+      color: #CD212A
+  span
+    cursor: default
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 60%
+    text-align: center
+  .old
+    position: absolute
+    bottom: 15px
+    left: 50%
+    transform: translateX(-50%)
+    border-radius: 2px
+    background-color: #212121
+    padding: 5px
+    font-size: 12px
+    letter-spacing: 1px
+    a,
+    a:focus,
+    a:visited
+      text-decoration: none
+      color: #eee

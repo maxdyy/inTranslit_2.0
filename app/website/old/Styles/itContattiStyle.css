@@ -1,4 +1,4 @@
-@-ms-viewport{
+@-ms-viewport {
   width: device-width;
 }
 
@@ -14,6 +14,7 @@ body {
   color: #242323;
   height: 100vh;
 }
+
 
 /*header*/
 
@@ -36,6 +37,7 @@ header {
   background: url(img/RR_logo_short.png) no-repeat center;
 }
 
+
 /*mobile menu icon*/
 
 #menu-icon {
@@ -48,6 +50,7 @@ header {
 a:hover#menu-icon {
   border-radius: 4px 4px 0 0;
 }
+
 
 /*navigation*/
 
@@ -81,6 +84,7 @@ nav ul li a:hover {
   color: #929292;
 }
 
+
 /*Contacts*/
 
 .fixer {
@@ -98,83 +102,100 @@ nav ul li a:hover {
   float: left;
   margin: 10% 0 3% 4%;
   text-align: center;
-  
 }
+
 
 
 /*contact form */
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
   color: #242323;
   font-size: 0.875em;
 }
 
-input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
   color: #242323;
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   color: #242323;
   font-size: 0.875em;
 }
 
-input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
   color: #242323;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: #242323;
   font-size: 0.875em;
 }
 
-input:focus::placeholder, textarea:focus:placeholder {
+input:focus::placeholder,
+textarea:focus:placeholder {
   color: #242323;
 }
 
-input::-ms-placeholder, textarea::-ms-placeholder {
+input::-ms-placeholder,
+textarea::-ms-placeholder {
   color: #242323;
   font-size: 0.875em;
 }
 
-input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+input:focus::-ms-placeholder,
+textarea:focus::-ms-placeholder {
   color: #242323;
 }
+
 
 /* on hover placeholder */
 
-input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+input:hover::-webkit-input-placeholder,
+textarea:hover::-webkit-input-placeholder {
   color: #929292;
   font-size: 0.875em;
 }
 
-input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+input:hover:focus::-webkit-input-placeholder,
+textarea:hover:focus::-webkit-input-placeholder {
   color: #929292;
 }
 
-input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-  color: #929292;
-  font-size: 0.875em;
-}
-
-input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
-  color: #929292;
-}
-
-input:hover::placeholder, textarea:hover::placeholder {
+input:hover::-moz-placeholder,
+textarea:hover::-moz-placeholder {
   color: #929292;
   font-size: 0.875em;
 }
 
-input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+input:hover:focus::-moz-placeholder,
+textarea:hover:focus::-moz-placeholder {
   color: #929292;
 }
 
-input:hover::placeholder, textarea:hover::placeholder {
+input:hover::placeholder,
+textarea:hover::placeholder {
   color: #929292;
   font-size: 0.875em;
 }
 
-input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
+input:hover:focus::placeholder,
+textarea:hover:focus::placeholder {
+  color: #929292;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: #929292;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder,
+textarea:hover:focus:-ms-placeholder {
   color: #929292;
 }
 
@@ -239,7 +260,7 @@ textarea {
   text-transform: uppercase;
   color: #fff;
 
-  outline:none;
+  outline: none;
   cursor: pointer;
 
   border: solid 1px #929292;
@@ -249,6 +270,7 @@ textarea {
 #submit:hover {
   background-color: #929292;
 }
+
 
 
 /*profile img*/
@@ -267,11 +289,12 @@ textarea {
   font-size: 18px;
 }
 
-/*footer*/
-footer {
-background-color: #383838;
-margin: 0 0 0 0;
 
+/*footer*/
+
+footer {
+  background-color: #383838;
+  margin: 0 0 0 0;
 }
 
 .copyright {
@@ -283,16 +306,17 @@ margin: 0 0 0 0;
   padding: 5px 0 5px 0;
 }
 
+
 /*MEDIA*/
 
 @media screen and (min-height: 740px) {
 
-footer {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  margin: 0 0 0 0;
-}
+  footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
 }
 
 
@@ -308,7 +332,8 @@ footer {
     margin-right: 20px;
   }
 
-  nav ul, nav:active ul {
+  nav ul,
+  nav:active ul {
     display: none;
     z-index: 1000;
     position: absolute;
@@ -326,7 +351,7 @@ footer {
     width: 100%;
   }
 
-.one-half {
+  .one-half {
     width: 100%;
     margin: 10% 0%;
   }
